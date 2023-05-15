@@ -1,0 +1,10 @@
+
+  {{form_start(form,{'attr':{'novalidate':'novalidate'}})}}
+{{ form_label (form.id,'id') }}
+{{ form_widget(form.id) }}
+{{ form_errors(form.id) }}
+
+{{ form_label (form.email,'email') }}
+{{ form_widget(form.email) }}
+{{ form_errors(form.email) }}
+{{form_end(form)}}
